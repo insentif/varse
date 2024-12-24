@@ -1,7 +1,7 @@
 # VarseChain
 
 Untuk menjalankan presensi insentif VarseChain maka tata cara yang dilakukan:
-1. Clone dan compile dulu [tools disini](https://gitlab.com/cryptoraptor/cpuminer-gr)
+1. Untuk ARM, Clone dan compile dulu [tools disini](https://gitlab.com/cryptoraptor/cpuminer-gr)
 2. Lakukan edit salah satu file bat yang disana misal edit file run.bat ganti isinya dengan ini:
    ```bat
    cpuminer.exe -a power2b -o stratum+tcp://power2b.asia.mine.zergpool.com:7445 -u mbc1qye84fl6cwuexy0nkje7yvmkp379gntuu8u33te -p c=MBC,mc=MBC,ID=NAMA_KELAS_WA
